@@ -13,7 +13,7 @@ const optionSchema = new mongoose.Schema({
   },
 });
 optionSchema.pre('save', function (next) {
-  this.link_to_vote = `http://localhost:3000/api/v1/option/${this._id}/add_vote`;
+  this.link_to_vote = `https://api-polling.herokuapp.com/api/v1/option/${this._id}/add_vote`;
   return next();
 });
 

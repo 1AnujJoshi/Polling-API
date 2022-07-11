@@ -1,6 +1,6 @@
 const express = require('express');
 const db = require('./config/mongoose');
-const port = process.env.port || 8000;
+const port = process.env.PORT || 8000;
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
