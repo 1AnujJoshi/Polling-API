@@ -22,7 +22,9 @@ module.exports.destroy = async (req, res) => {
 module.exports.addVote = async (req, res) => {
   try {
     const option = await Option.findById(req.params.id);
-
+    if (!option.votes) {
+      option.votes = 0;
+    }
     option.votes += 1;
     await option.save();
     return res.status(200).json({

@@ -4,7 +4,6 @@ const port = process.env.PORT || 8000;
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
-// app.use(express.json());
 
 // use express router
 app.use('/', require('./routes'));
