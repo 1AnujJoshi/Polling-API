@@ -29,12 +29,12 @@
 
 ### Features
 
-1- Create a question (you can add as many questions as you want).
-2- Add options to a question.
-3- Add a vote to an option of question.
-4- Delete a question .
-5- Delete an option.
-6- View a question with it’s options and all the votes given to it.
+1. Create a question (you can add as many questions as you want).
+2. Add options to a question.
+3. Add a vote to an option of question.
+4. Delete a question .
+5. Delete an option.
+6. View a question with it’s options and all the votes given to it.
 
 ### Hosted URL
 
