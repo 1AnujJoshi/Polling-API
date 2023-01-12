@@ -38,4 +38,4 @@
 
 ### Hosted URL
 
-https://api-polling.herokuapp.com/api/v1/question
+https://polling-api-ws0e.onrender.com/api/v1/question
